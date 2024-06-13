@@ -1,0 +1,21 @@
+body {
+    background-image: url(../img/fondo.png);
+}
+
+.cabecera {
+    background-image: url(../img/fondo_cabecera.png);
+}
+
+#indice {
+    background-image: url(../img/fondo_indice.jpg);
+    background-size: cover;
+}
+
+#contenido {
+    background-image: url(../img/fondo_contenido.png);
+    background-size: cover;
+}
+
+#pie {
+    background-image: url(../img/fondo_pie.png);
+}

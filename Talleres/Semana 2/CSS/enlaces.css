@@ -1,0 +1,29 @@
+#indice a:link {
+    color: red;
+    text-decoration: none;
+}
+
+#indice a:visited {
+    color: red;
+    font-style: italic;
+    text-decoration: none;
+}
+
+#indice li>a:hover {
+    background-color: White;
+    color: Gray;
+    text-transform: uppercase;
+}
+
+#pie p a:link {
+    color: green;
+    text-decoration: none;
+}
+
+#pie p a:hover {
+    background-color: White;
+    border-style: solid;
+    border-color: black;
+    color: teal;
+    font-style: normal;
+}
