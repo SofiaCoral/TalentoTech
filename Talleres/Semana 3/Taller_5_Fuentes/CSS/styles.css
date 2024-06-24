@@ -1,0 +1,98 @@
+/* Fuentes */
+@font-face {
+    font-family: 'DIN Pro Black';
+    src: url('../fonts/dinpro/DINPro-Black\ tr.ttf') format('woff2'),
+        url('../fonts/dinpro/DINPro-Black\ tr.ttf') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Pro Bold';
+    src: url('../fonts/dinpro/DINPro-Bold tr.ttf') format('woff2'),
+        url('../fonts/dinpro/DINPro-Bold tr.ttf') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Pro Light';
+    src: url('../fonts/dinpro/DINPro-Light tr.ttf') format('woff2'),
+        url('../fonts/dinpro/DINPro-Light tr.ttf') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN Pro Medium';
+    src: url('../fonts/dinpro/DINPro-Medium tr.ttf') format('woff2'),
+        url('../fonts/dinpro/DINPro-Medium tr.ttf') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+}
+
+h1 {
+    font-family: "Abril Fatface", serif;
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+    color: rgb(139, 35, 236);
+}
+
+nav {
+    font-family: 'DIN Pro Black', sans-serif;
+    justify-content: flex-start;
+    background-color: rgb(235, 210, 247);
+    padding: 1%;
+    padding-left: 5px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-items: flex-start;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 10px;
+}
+
+nav a {
+    color: rgb(139, 35, 236);
+}
+
+nav a:hover {
+    color: cadetblue;
+}
+
+#contenido {
+    padding: 20px;
+    font-family: 'DIN Pro Light', sans-serif;
+}
+
+#indice {
+    padding: 20px;
+    font-family: 'DIN Pro Medium', sans-serif;
+}
+
+footer {
+    background-color: rgb(235, 210, 247);
+    font-family: 'DIN Pro Light', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}

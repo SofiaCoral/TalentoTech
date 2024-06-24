@@ -1,0 +1,34 @@
+header {
+    position: absolute;
+    height: 10%;
+    width: 99%;
+}
+
+nav {
+    position: absolute;
+    top: 12%;
+    height: 5%;
+    width: 97%;
+}
+
+#indice {
+    position: absolute;
+    top: 22%;
+    width: 30%;
+    height: 65%;
+}
+
+#contenido {
+    position: absolute;
+    top: 22%;
+    left: 32%;
+    height: 65%;
+    width: 64%;
+}
+
+footer {
+    position: absolute;
+    bottom: 2%;
+    height: 10%;
+    width: 98%;
+}
